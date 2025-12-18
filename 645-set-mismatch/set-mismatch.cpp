@@ -1,3 +1,6 @@
+// using maths
+// suitable sum = n*(n+1)/2
+
 class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
@@ -12,6 +15,10 @@ public:
         return {dup,(ss-(as-dup))};
     }
 };
+
+
+// using arrays and frequencies
+
 
 // class Solution {
 // public:
