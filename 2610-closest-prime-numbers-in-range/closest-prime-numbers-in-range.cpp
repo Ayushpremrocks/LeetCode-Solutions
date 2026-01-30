@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> closestPrimes(int left, int right) {
-        if(left==right) return {-1,-1};
+        //if(left==right) return {-1,-1};
         int limit = sqrt(right)+1;
         vector<bool>temp(limit+1,true);
         vector<int>primes;
